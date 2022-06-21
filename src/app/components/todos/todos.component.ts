@@ -23,7 +23,7 @@ export class TodosComponent implements OnInit {
 
   toggleComplete(todo: Todo) {
     todo.completed = !todo.completed;
-    // console.log(todo.completed);
+    this.todoService.updateTodoCompleted(todo).subscribe();
   }
 }
 
