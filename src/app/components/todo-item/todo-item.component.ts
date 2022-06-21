@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
 import { Todo } from '../../Todo';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,12 +9,16 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 })
 export class TodoItemComponent implements OnInit {
   @Input() todo: Todo
+  @Output() onDeleteTodo: EventEmitter<Todo> = new EventEmitter(); 
   faTrashAlt = faTrashAlt;
-
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onDelete(todo: Todo) {
+    this.onDeleteTodo.emit(todo);
   }
 
 }

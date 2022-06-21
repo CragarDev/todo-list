@@ -27,13 +27,6 @@
       "description": "Web app for employment consideration",
       "completed": "false",
       "id": 4
-    },
-    {
-      "title": "testing",
-      "dueDate": "testing",
-      "description": "testing",
-      "completed": "true",
-      "id": 5
     }
   ]
 }
