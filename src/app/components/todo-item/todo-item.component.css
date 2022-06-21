@@ -1,0 +1,24 @@
+.todo {
+  background: #3bceac;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.todo:hover {
+  background: #2fa58a;
+}
+
+.todo.reminder {
+  border-left: 8px solid #540d6e;
+}
+
+.todo h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo h5 {
+  color: #0ead69;
+}
