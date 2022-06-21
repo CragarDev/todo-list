@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Todo } from '../../Todo';
+import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-todo-item',
@@ -8,6 +9,9 @@ import { Todo } from '../../Todo';
 })
 export class TodoItemComponent implements OnInit {
   @Input() todo: Todo
+  faTrashAlt = faTrashAlt;
+
+
   constructor() { }
 
   ngOnInit(): void {
