@@ -22,15 +22,15 @@ body {
 }
 .btn {
   display: inline-block;
-  background: rgb(38, 38, 38);
+  background: rgb(0, 63, 48);
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 15px;
   margin: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   font-family: inherit;
 }
 .btn:focus {
