@@ -4,29 +4,36 @@
       "id": 1,
       "title": "Learn Angular",
       "dueDate": "June 21, 2022",
-      "discription": "Learn Angular and its framework",
+      "description": "Learn Angular and its framework",
       "completed": false
     },
     {
       "id": 2,
       "title": "Learn TypeScript",
       "dueDate": "June 22, 2022",
-      "discription": "Learn to use TypeScript",
+      "description": "Learn to use TypeScript",
       "completed": false
     },
     {
       "id": 3,
       "title": "Learn Node",
       "dueDate": "March 23, 2022",
-      "discription": "Learn to use Node.Js",
+      "description": "Learn to use Node.Js",
       "completed": true
     },
     {
       "title": "build web app for assesment",
-      "dueDate": "June 23, 2022",
+      "dueDate": "June 22, 2022",
       "description": "Web app for employment consideration",
       "completed": "false",
       "id": 4
+    },
+    {
+      "title": "testing",
+      "dueDate": "testing",
+      "description": "testing",
+      "completed": "true",
+      "id": 5
     }
   ]
 }
