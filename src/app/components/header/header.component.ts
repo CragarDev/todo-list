@@ -13,4 +13,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void { // lifecycle method - use this most of the time for when the component loads
   }
 
+  toggleAddTodo() {
+    console.log('Toggling');
+  }
+
 }
