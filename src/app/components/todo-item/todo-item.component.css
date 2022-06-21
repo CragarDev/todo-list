@@ -9,8 +9,9 @@
   background: #2fa58a;
 }
 
-.todo.complete {
+.todo.completed {
   border-left: 8px solid #540d6e;
+  background: #47344e;
 }
 
 .todo h3 {

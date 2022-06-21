@@ -1,4 +1,8 @@
-<div class="todo">
+<div
+  [ngClass]="{ completed: todo.completed }"
+  class="todo"
+  (dblclick)="onToggle(todo)"
+>
   <h3>
     {{ todo.title }}
     <fa-icon

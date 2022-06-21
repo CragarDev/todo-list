@@ -5,7 +5,7 @@
       "title": "Learn Angular",
       "dueDate": "June 21, 2022",
       "description": "Learn Angular and its framework",
-      "completed": false
+      "completed": true
     },
     {
       "id": 2,
@@ -25,7 +25,7 @@
       "title": "build web app for assesment",
       "dueDate": "June 22, 2022",
       "description": "Web app for employment consideration",
-      "completed": "false",
+      "completed": false,
       "id": 4
     }
   ]
