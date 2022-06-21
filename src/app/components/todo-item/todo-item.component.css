@@ -6,11 +6,12 @@
 }
 
 .todo:hover {
-  background: #2fa58a;
+  background: #28997f;
 }
 
 .todo.completed {
   border-left: 8px solid #540d6e;
+  border-right: 8px solid #540d6e;
   background: #47344e;
 }
 
