@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  title: string = 'ToDo List';
+  title: string = 'My ToDo List';
 
   constructor() { } // runs when object is initialized
 
