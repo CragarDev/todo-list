@@ -1,3 +1,4 @@
+// similiar to a model schema
 export interface Todo {
     id?: number;
     title: string;
@@ -5,6 +6,6 @@ export interface Todo {
     discription: string;
     completed: boolean;
 }
-//# sourceMappingURL=todo.js.map
+
 
 

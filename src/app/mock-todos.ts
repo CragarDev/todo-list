@@ -1,4 +1,6 @@
-export const ToDos = [
+import {Todo} from './Todo';
+
+export const TODOS: Todo[] = [
     {
         id: 1,
         title: 'Learn Angular',
@@ -17,7 +19,8 @@ export const ToDos = [
         id: 3,
         title: 'Learn Node',
         dueDate: 'March 23, 2022',
+        discription: 'Learn to use Node.Js',
         completed: true
     }
 ];
-//# sourceMappingURL=mock-todos.js.map
+
