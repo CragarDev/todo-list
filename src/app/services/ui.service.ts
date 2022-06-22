@@ -5,13 +5,12 @@ import { Observable, Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class UiService {
-  private showAddTodo: boolean = false;
+  private showAddTodo: boolean;
   private subject = new Subject<any>();
 
   constructor() { }
 
   toggleAddTodo(): void {
-    
     this.showAddTodo = !this.showAddTodo;
     this.subject.next(this.showAddTodo);
   }

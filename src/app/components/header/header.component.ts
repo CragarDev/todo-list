@@ -9,10 +9,12 @@ import { Subscription } from 'rxjs';
 })
 export class HeaderComponent implements OnInit {
   title: string = 'My ToDo List';
-  showAddTodo: boolean;
+  showAddTodo: boolean = false;
   subscription: Subscription;
 
-  constructor(private uiService:UiService) { } // runs when object is initialized
+  constructor(private uiService:UiService) {
+    this.subscription = this.uiService.onToggle().subscribe((value) => (this.showAddTodo = value));
+   } // runs when object is initialized
 
   ngOnInit(): void { // lifecycle method - use this most of the time for when the component loads
   }
