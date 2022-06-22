@@ -43,10 +43,11 @@ body {
 .btn-block {
   display: block;
   width: 100%;
+  background: #ffd23f;
 }
 
 .form-control {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .form-control label {
@@ -56,7 +57,7 @@ body {
 .form-control input {
   width: 100%;
   height: 40px;
-  margin: 5px;
+  margin: 7px;
   padding: 3px 7px;
   font-size: 17px;
 }
