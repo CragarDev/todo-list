@@ -30,7 +30,7 @@ To exit enter:  `control C` in the terminal
 ## Thanks for taking a look at My Todo List
 ### The app in action:
 
-<img src="src/assets/images/myTodoList.gif" height=500 >
+<img src="src/assets/images/myTodoList.gif" width=400 height=400 >
 
 
 
