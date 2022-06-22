@@ -12,7 +12,7 @@
       "title": "Learn TypeScript",
       "dueDate": "June 22, 2022",
       "description": "Learn to use TypeScript",
-      "completed": true
+      "completed": false
     },
     {
       "id": 3,
