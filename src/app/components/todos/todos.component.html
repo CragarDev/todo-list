@@ -1,4 +1,5 @@
-<app-add-todo></app-add-todo>
+<app-add-todo (onAddTodo)="addTodo($event)"></app-add-todo>
+<h6>double click to mark high priority</h6>
 <app-todo-item
   *ngFor="let todo of todos"
   [todo]="todo"

@@ -5,14 +5,14 @@
       "title": "Learn Angular",
       "dueDate": "June 21, 2022",
       "description": "Learn Angular and its framework",
-      "completed": true
+      "completed": false
     },
     {
       "id": 2,
       "title": "Learn TypeScript",
       "dueDate": "June 22, 2022",
       "description": "Learn to use TypeScript",
-      "completed": false
+      "completed": true
     },
     {
       "id": 3,
@@ -22,11 +22,18 @@
       "completed": true
     },
     {
-      "title": "build web app for assesment",
-      "dueDate": "June 22, 2022",
-      "description": "Web app for employment consideration",
+      "title": "Test Todo",
+      "dueDate": "2022-06-30",
+      "description": "Testing 1234",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "title": "This Works",
+      "dueDate": "2022-07-02",
+      "description": "This does work",
       "completed": false,
-      "id": 4
+      "id": 6
     }
   ]
 }
