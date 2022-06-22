@@ -12,7 +12,7 @@
       "title": "Learn TypeScript",
       "dueDate": "June 22, 2022",
       "description": "Learn to use TypeScript",
-      "completed": false
+      "completed": true
     },
     {
       "id": 3,
@@ -20,6 +20,13 @@
       "dueDate": "March 23, 2022",
       "description": "Learn to use Node.Js",
       "completed": false
+    },
+    {
+      "title": "Adding a Todo",
+      "dueDate": "2022-09-22",
+      "description": "Just adding a todo to do",
+      "completed": true,
+      "id": 4
     }
   ]
 }
