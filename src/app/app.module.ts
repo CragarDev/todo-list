@@ -11,9 +11,11 @@ import { ButtonComponent } from './components/button/button.component';
 import { TodosComponent } from './components/todos/todos.component';
 import { TodoItemComponent } from './components/todo-item/todo-item.component';
 import { AddTodoComponent } from './components/add-todo/add-todo.component';
+import { AboutComponent } from './components/about/about.component';
 
 const appRoutes: Routes = [
   { path: '', component: TodosComponent },
+  { path: 'about', component: AboutComponent }
 ]
 
 @NgModule({
@@ -23,7 +25,8 @@ const appRoutes: Routes = [
     ButtonComponent,
     TodosComponent,
     TodoItemComponent,
-    AddTodoComponent
+    AddTodoComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
