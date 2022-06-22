@@ -20,34 +20,6 @@
       "dueDate": "March 23, 2022",
       "description": "Learn to use Node.Js",
       "completed": false
-    },
-    {
-      "title": "Test Todo",
-      "dueDate": "2022-06-30",
-      "description": "Testing 1234",
-      "completed": true,
-      "id": 5
-    },
-    {
-      "title": "This Works",
-      "dueDate": "2022-07-02",
-      "description": "This does work",
-      "completed": false,
-      "id": 6
-    },
-    {
-      "title": "asdgasdf",
-      "dueDate": "2022-06-04",
-      "description": "asfhdashd",
-      "completed": false,
-      "id": 7
-    },
-    {
-      "title": "asdhash",
-      "dueDate": "2022-06-06",
-      "description": "asfhadsfh",
-      "completed": true,
-      "id": 8
     }
   ]
 }

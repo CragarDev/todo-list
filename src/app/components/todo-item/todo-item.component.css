@@ -12,7 +12,11 @@
 .todo.completed {
   border-left: 8px solid #540d6e;
   border-right: 8px solid #540d6e;
-  background: #47344e;
+  background: #f2d0ff;
+}
+
+.todo.completed:hover {
+  background: #e39cfe;
 }
 
 .todo h3 {
@@ -22,5 +26,5 @@
 }
 
 .todo h5 {
-  color: #0ead69;
+  color: #7c5f00;
 }
