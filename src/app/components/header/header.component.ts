@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { UiService } from '../../services/ui.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -7,14 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   title: string = 'My ToDo List';
+  showAddTodo: boolean;
+  subscription: Subscription;
 
-  constructor() { } // runs when object is initialized
+  constructor(private uiService:UiService) { } // runs when object is initialized
 
   ngOnInit(): void { // lifecycle method - use this most of the time for when the component loads
   }
 
   toggleAddTodo() {
-    console.log('Toggling');
+    this.uiService.toggleAddTodo();
   }
 
 }
