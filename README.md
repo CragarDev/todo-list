@@ -1,26 +1,39 @@
-# TodoList
+# Running -  My Todo List
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+My Todo List was built using Angular, Typescript, nodejs, and utilizing json-server as the database package
 
-## Development server
+Follow the step below to run this web app:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. git clone repo
 
-## Code scaffolding
+    <img src="src/assets/images/screenShot01.png" height=50 >
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. cd into 
 
-## Build
+    <img src="src/assets/images/screenShot02.png" height=50 >
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. run `npm install' to install the dependencies
 
-## Running unit tests
+     <img src="src/assets/images/screenShot03.png" height=50 >
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. run `npm run dev' this will start both front and backend servers simultaneously
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+     <img src="src/assets/images/screenShot04.png" height=50 >
+
+
+5. Open your browser to http://localHost:4200 and you should see the app working
+6. to check out the data in the backend go to http://localHost:5000/todos
+
+To exit enter:  `control C` in the terminal
+
+## Thanks for taking a look at My Todo List
+### The app in action:
+
+<img src="src/assets/images/myTodoList.gif" height=500 >
+
+
+
 
 ## Further help
 
