@@ -1,4 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import {Subscription} from 'rxjs';
+import { UiService } from '../../services/ui.service';
 import { Todo } from '../../Todo';
 
 @Component({
@@ -11,9 +13,13 @@ export class AddTodoComponent implements OnInit {
   title: string;
   dueDate: string;
   description: string;
-  completed: boolean = false;
+  completed: boolean = false; 
+  showAddTodo:boolean;
+  subscription: Subscription;
 
-  constructor() {}
+  constructor(private uiService:UiService) {
+    this.subscription = this.uiService.onToggle().subscribe((value) => (this.showAddTodo = value));
+  }
 
   ngOnInit(): void {}
 

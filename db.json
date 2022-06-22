@@ -5,14 +5,14 @@
       "title": "Learn Angular",
       "dueDate": "June 21, 2022",
       "description": "Learn Angular and its framework",
-      "completed": false
+      "completed": true
     },
     {
       "id": 2,
       "title": "Learn TypeScript",
       "dueDate": "June 22, 2022",
       "description": "Learn to use TypeScript",
-      "completed": true
+      "completed": false
     },
     {
       "id": 3,
@@ -34,6 +34,20 @@
       "description": "This does work",
       "completed": false,
       "id": 6
+    },
+    {
+      "title": "asdgasdf",
+      "dueDate": "2022-06-04",
+      "description": "asfhdashd",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "asdhash",
+      "dueDate": "2022-06-06",
+      "description": "asfhadsfh",
+      "completed": true,
+      "id": 8
     }
   ]
 }
