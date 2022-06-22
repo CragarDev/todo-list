@@ -12,11 +12,11 @@ Follow the step below to run this web app:
 
     <img src="src/assets/images/screenShot02.png" height=50 >
 
-3. run `npm install' to install the dependencies
+3. run `npm install` to install the dependencies
 
      <img src="src/assets/images/screenShot03.png" height=50 >
 
-4. run `npm run dev' this will start both front and backend servers simultaneously
+4. run `npm run dev` this will start both front and backend servers simultaneously
 
 
      <img src="src/assets/images/screenShot04.png" height=50 >
