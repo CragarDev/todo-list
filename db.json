@@ -2,29 +2,29 @@
   "todos": [
     {
       "id": 1,
-      "title": "Learn Angular",
+      "title": "Todo One",
       "dueDate": "June 21, 2022",
-      "description": "Learn Angular and its framework",
+      "description": "Build a todo list",
       "completed": false
     },
     {
       "id": 2,
-      "title": "Learn TypeScript",
+      "title": "Todo Two",
       "dueDate": "June 22, 2022",
-      "description": "Learn to use TypeScript",
+      "description": "Add items to the todo list",
       "completed": true
     },
     {
       "id": 3,
-      "title": "Learn Node",
+      "title": "Todo Three",
       "dueDate": "March 23, 2022",
-      "description": "Learn to use Node.Js",
+      "description": "Delete items from the todo list",
       "completed": false
     },
     {
-      "title": "Adding a Todo",
+      "title": "Todo Four",
       "dueDate": "2022-09-22",
-      "description": "Just adding a todo to do",
+      "description": "End the project",
       "completed": true,
       "id": 4
     }
